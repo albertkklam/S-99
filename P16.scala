@@ -6,3 +6,4 @@ object P16 {
 		l.zipWithIndex.map{case (k,v) => (k,v+1)}.filter(_._2 % n != 0).map(_._1)
 	}
 }
+ 
